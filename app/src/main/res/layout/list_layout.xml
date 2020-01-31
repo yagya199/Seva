@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffafa">
+
+
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp" />
+
+
+    <TextView
+        android:id="@+id/w"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/title_image"
+        android:layout_marginLeft="8dp"
+        android:text=" Skill "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pweight"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/title_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:text="Location"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/w1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/w"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/w1"
+        android:layout_marginLeft="8dp"
+        android:text="Contact To Hire"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contact_no"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/w1"
+        android:layout_marginLeft="110dp" />
+
+
+    <TextView
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/w"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp" />
+
+
+</RelativeLayout>
